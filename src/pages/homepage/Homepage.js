@@ -6,6 +6,7 @@ import axios from "axios";
 import Detail from "../../components/details/Details";
 import Navbar from "../../components/navbar/Navbar";
 import FeaturedContent from "../../components/featuredContent/FeaturedContent";
+import SliderCarousel from "../../components/slider/SliderCarousel";
 
 const Homepage = () => {
   const API_KEY = "641aef8bfa01c60ca1f37f2125893261";
@@ -62,30 +63,17 @@ const Homepage = () => {
     window.scrollTo(0, ref.current.offsetTop);
   };
 
-  let settings = {
-    className: "center",
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    speed: 500,
-  };
   return (
     <div className="homepageContainer">
-      <FeaturedContent/>
-      <Navbar/>
-      <div>
-        <span className="genreTitle" ref={refT}>
-          Trends on Netflix
-        </span>
-        <Slider {...settings}>
-          {trendMovies &&
-            trendMovies.map((movie) => (
-              <div onClick={() => handleDetail(movie, "trends", refT)}>
-                <Card movie={movie} />
-              </div>
-            ))}
-        </Slider>
-      </div>
+      <FeaturedContent />
+      <Navbar />
+      <SliderCarousel
+        title="Trends on Netflix"
+        name="trends"
+        referance={refT}
+        movies={trendMovies}
+        handleDetail={handleDetail}
+      />
       {detail &&
         detailSection.section &&
         detailSection.section === "trends" && (
@@ -95,19 +83,13 @@ const Homepage = () => {
             setDetail={setDetail}
           />
         )}
-      <div>
-        <span className="genreTitle" ref={refP}>
-          Populer on Netflix
-        </span>
-        <Slider {...settings}>
-          {popularMovies &&
-            popularMovies.map((movie) => (
-              <div onClick={() => handleDetail(movie, "popular", refP)}>
-                <Card movie={movie} />
-              </div>
-            ))}
-        </Slider>
-      </div>
+        <SliderCarousel
+        title="Populer on Netflix"
+        name="popular"
+        referance={refP}
+        movies={popularMovies}
+        handleDetail={handleDetail}
+      />
       {detail &&
         detailSection.section &&
         detailSection.section === "popular" && (
@@ -117,19 +99,13 @@ const Homepage = () => {
             setDetail={setDetail}
           />
         )}
-      <div>
-        <span className="genreTitle" ref={refA}>
-          Action Movies
-        </span>
-        <Slider {...settings}>
-          {actionMovies &&
-            actionMovies.map((movie) => (
-              <div onClick={() => handleDetail(movie, "action", refA)}>
-                <Card movie={movie} />
-              </div>
-            ))}
-        </Slider>
-      </div>
+        <SliderCarousel
+        title="Action Movies"
+        name="action"
+        referance={refA}
+        movies={actionMovies}
+        handleDetail={handleDetail}
+      />
       {detail &&
         detailSection.section &&
         detailSection.section === "action" && (
@@ -139,19 +115,13 @@ const Homepage = () => {
             setDetail={setDetail}
           />
         )}
-      <div>
-        <span className="genreTitle" ref={refH}>
-          Horror Movies
-        </span>
-        <Slider {...settings}>
-          {horrorMovies &&
-            horrorMovies.map((movie) => (
-              <div onClick={() => handleDetail(movie, "horror", refH)}>
-                <Card movie={movie} />
-              </div>
-            ))}
-        </Slider>
-      </div>
+        <SliderCarousel
+        title="Horror Movies"
+        name="horror"
+        referance={refH}
+        movies={horrorMovies}
+        handleDetail={handleDetail}
+      />
       {detail &&
         detailSection.section &&
         detailSection.section === "horror" && (
@@ -161,19 +131,13 @@ const Homepage = () => {
             setDetail={setDetail}
           />
         )}
-      <div>
-        <span className="genreTitle" ref={refF}>
-          Family Movies
-        </span>
-        <Slider {...settings}>
-          {familyMovies &&
-            familyMovies.map((movie) => (
-              <div onClick={() => handleDetail(movie, "family", refF)}>
-                <Card movie={movie} />
-              </div>
-            ))}
-        </Slider>
-      </div>
+        <SliderCarousel
+        title="Family Movies"
+        name="family"
+        referance={refF}
+        movies={familyMovies}
+        handleDetail={handleDetail}
+      />
       {detail &&
         detailSection.section &&
         detailSection.section === "family" && (
