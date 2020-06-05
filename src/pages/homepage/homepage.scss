@@ -1,0 +1,61 @@
+.homepageContainer {
+  background-color: black;
+  height: 1000px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+
+  .logo {
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .navLink {
+    color: white;
+    margin-right: 15px;
+  }
+
+  .featuredContent {
+    background-image: url("../../assets/1.jpg");
+    background-size: cover;
+    height: 500px;
+
+    .featuredTextContainer {
+      width: 500px;
+      padding: 20px;
+      padding-top: 100px;
+      color: white;
+
+      .featuredTitle {
+        font-size: 60px;
+        font-weight: 900;
+        text-decoration: underline;
+        text-underline-position: under;
+      }
+
+      .featuredDesc {
+        font-weight: 500;
+      }
+    }
+    .visitButton {
+      background-color: white;
+      border-radius: 10px;
+      border: none;
+      width: 120px;
+      height: 40px;
+      margin: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .sliderContainer {
+    &:hover {
+      .cardContainer {
+        transform: translateX(-25%);
+      }
+    }
+  }
+  .genreTitle {
+    margin: 10px;
+    font-weight: 700;
+  }
+}

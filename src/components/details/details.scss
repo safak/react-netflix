@@ -1,0 +1,83 @@
+.detailContainer {
+  background-size: cover;
+
+  .detailCol {
+    width: 40%;
+    height: 500px;
+    vertical-align: middle;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+    .title {
+      margin-top: 50px;
+    }
+
+    .year,
+    .duration,
+    .imdb {
+      font-weight: 700;
+      margin-right: 10px;
+    }
+    .ageLimit {
+      font-weight: 700;
+      background-color: black;
+      margin-right: 10px;
+      padding-left: 3px;
+      padding-right: 3px;
+      border: solid white;
+    }
+
+    .desc {
+      color: #b8b4b4;
+      margin-top: 10px;
+    }
+
+    .playButton {
+      font-weight: 700;
+      background-color: white;
+      margin-right: 10px;
+    }
+
+    .myListButton {
+      font-weight: 900;
+      background-color: #505050;
+      color: white;
+    }
+
+    .starring {
+      color: #b8b4b4;
+      margin-top: 20px;
+    }
+
+    .genre {
+      color: #b8b4b4;
+    }
+  }
+
+  .detailButtons {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+    ul {
+      list-style-type: none;
+
+      li {
+        display: inline;
+        margin-right: 30px;
+      }
+
+      li.active {
+        padding-bottom: 5px;
+        border-bottom: solid red thick;
+      }
+    }
+  }
+
+  .closeCol {
+    .closeButton {
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.cardContainer{
+
+    transition: transform 300ms ease 100ms;
+
+    &:hover{
+        
+        transform: scale(1.5) !important;        
+    }
+    
+        
+    .cardImg{
+        margin: 10px;
+        width: 228px;
+        height: 128px;
+        object-fit: cover;
+
+    }
+
+    
+}
