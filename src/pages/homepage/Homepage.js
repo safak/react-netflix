@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./homepage.scss";
-import Card from "../../components/card/Card";
-import Slider from "react-slick";
 import axios from "axios";
 import Detail from "../../components/details/Details";
 import Navbar from "../../components/navbar/Navbar";
