@@ -1,20 +1,45 @@
-.cardContainer{
+.cardContainer {
+  transition: transform 300ms ease 100ms;
 
-    transition: transform 300ms ease 100ms;
+  &:hover {
+    transform: scale(1.5) !important;
 
-    &:hover{
-        
-        transform: scale(1.5) !important;        
+    .det {
+      visibility: visible;
     }
-    
-        
-    .cardImg{
-        margin: 10px;
-        width: 228px;
-        height: 128px;
-        object-fit: cover;
+  }
 
+  .cardImg {
+    margin: 10px;
+    width: 228px;
+    height: 128px;
+    object-fit: cover;
+  }
+
+  .det {
+    visibility: hidden;
+
+    .movieTitle {
+      position: absolute;
+      bottom: 30px;
+      left: 20px;
+      font-weight: 700;
     }
 
-    
+    .movieVote {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 10px;
+      font-weight: 300;
+    }
+
+    .movieLang {
+      position: absolute;
+      bottom: 10px;
+      left: 65px;
+      font-size: 10px;
+      font-weight: 300;
+    }
+  }
 }

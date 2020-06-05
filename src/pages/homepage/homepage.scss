@@ -1,6 +1,5 @@
 .homepageContainer {
   background-color: black;
-  height: 1000px;
   color: white;
   font-family: "Roboto", sans-serif;
 
@@ -44,14 +43,6 @@
       height: 40px;
       margin: 20px;
       font-weight: 700;
-    }
-  }
-
-  .sliderContainer {
-    &:hover {
-      .cardContainer {
-        transform: translateX(-25%);
-      }
     }
   }
   .genreTitle {
