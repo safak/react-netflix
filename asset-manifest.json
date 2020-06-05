@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-netflix/static/css/main.9e4f6d3b.chunk.css",
+    "main.js": "/react-netflix/static/js/main.d6efa306.chunk.js",
+    "main.js.map": "/react-netflix/static/js/main.d6efa306.chunk.js.map",
+    "runtime-main.js": "/react-netflix/static/js/runtime-main.426a0ea8.js",
+    "runtime-main.js.map": "/react-netflix/static/js/runtime-main.426a0ea8.js.map",
+    "static/css/2.7f383e30.chunk.css": "/react-netflix/static/css/2.7f383e30.chunk.css",
+    "static/js/2.f74c0456.chunk.js": "/react-netflix/static/js/2.f74c0456.chunk.js",
+    "static/js/2.f74c0456.chunk.js.map": "/react-netflix/static/js/2.f74c0456.chunk.js.map",
+    "index.html": "/react-netflix/index.html",
+    "precache-manifest.b8d19fe5510e58a9a465efcaa0feb855.js": "/react-netflix/precache-manifest.b8d19fe5510e58a9a465efcaa0feb855.js",
+    "service-worker.js": "/react-netflix/service-worker.js",
+    "static/css/2.7f383e30.chunk.css.map": "/react-netflix/static/css/2.7f383e30.chunk.css.map",
+    "static/css/main.9e4f6d3b.chunk.css.map": "/react-netflix/static/css/main.9e4f6d3b.chunk.css.map",
+    "static/js/2.f74c0456.chunk.js.LICENSE.txt": "/react-netflix/static/js/2.f74c0456.chunk.js.LICENSE.txt",
+    "static/media/homepage.scss": "/react-netflix/static/media/1.f279ee4f.jpg",
+    "static/media/2.jpg": "/react-netflix/static/media/2.04afa858.jpg",
+    "static/media/forrest.webp": "/react-netflix/static/media/forrest.255737e1.webp",
+    "static/media/slick-theme.css": "/react-netflix/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.426a0ea8.js",
+    "static/css/2.7f383e30.chunk.css",
+    "static/js/2.f74c0456.chunk.js",
+    "static/css/main.9e4f6d3b.chunk.css",
+    "static/js/main.d6efa306.chunk.js"
+  ]
+}
