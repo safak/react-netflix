@@ -1,0 +1,25 @@
+.featuredContainer{
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .desc{
+        left: 0px;
+        width: 40vw;
+        height: 100%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+
+    }
+
+    .playButton {
+        font-weight: 700;
+        background-color: white;
+        margin-right: 10px;
+      }
+  
+      .myListButton {
+        font-weight: 900;
+        background-color: #505050;
+        color: white;
+      }
+}
