@@ -2,7 +2,7 @@ Netflix clone application with React.js and Movie API 🎥
 
 [👉DEMO LINK](https://safak.github.io/react-netflix/)
 
-![Netflix](https://github.com/safak/react-netflix/blob/master/netflix.png?raw=true)
+![Netflix](https://github.com/safak/react-netflix/blob/master/netflix.gif?raw=true)
 
 ## Installation
 
