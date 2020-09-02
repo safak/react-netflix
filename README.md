@@ -1,14 +1,23 @@
-# Nexflix React Js Clone
+Netflix clone application with React.js and Movie API 🎥
 
-Netflix react web application with TMDb API.
+[👉DEMO LINK](https://safak.github.io/react-netflix/)
 
-## Demo
-https://safak.github.io/react-netflix
-
-![](netflix.png)
+![Netflix](https://github.com/safak/react-netflix/blob/master/netflix.png?raw=true)
 
 ## Installation
 
-`git clone https://github.com/safak/react-netflix.git`\
-`npm install`\
-`npm start`
+Download repository. Use yarn or npm to run it.
+
+```bash
+yarn start
+```
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+
+```bash
+yarn build
+```
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
